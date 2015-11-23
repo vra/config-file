@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/data/public/caffe0701_backup'
+let g:netrw_dirhist_2='/home/wangyf/Dev/caffe0925/examples/mnist/mnist_train_lmdb'
+let g:netrw_dirhist_3='/home/wangyf/Dev/caffe0925/examples/mnist'
+let g:netrw_dirhist_4='/data1/wangyf/dataset/ucf101/ucfTrainTestlist'
+let g:netrw_dirhist_5='/home/wangyf/Lab/caffe0925/data/mnist'
+let g:netrw_dirhist_6='/home/wangyf/Lab/caffe0925/models/finetune_flickr_style'
