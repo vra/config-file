@@ -5,6 +5,7 @@ export ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
+#ZSH_THEME="agnoster"
 #ZSH_THEME="robbyrussell"
 ZSH_THEME="muse"
 #ZSH_THEME="example"
@@ -60,8 +61,6 @@ source $ZSH/oh-my-zsh.sh
 # You may need to manually set your language environment
 export LANG=en_US.UTF-8
 
-export PKG_CONFIG_PATH=/home/wangyf/bin/lib/pkgconfig:$PKG_CONFIG_PATH
-export LD_LIBRARY_PATH=/home/wangyf/bin/lib:$LD_LIBRARY_PATH
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
 #   export EDITOR='vim'
@@ -84,15 +83,33 @@ export LD_LIBRARY_PATH=/home/wangyf/bin/lib:$LD_LIBRARY_PATH
 alias zshconfig="vi ~/.zshrc"
 alias viconfig="vi ~/.vimrc"
 alias ohmyzsh="cd ~/.oh-my-zsh"
-alias sshfreeshell="ssh -p 33758 root@ssh.freeshell.ustc.edu.cn"
 alias freeshell30107="ssh -p 30107 yunfeng@202.141.160.95"
 alias ssh182="ssh wangyf@192.168.104.182"
 alias ssh244="ssh wangyf@192.168.104.244"
-alias hexod="hexo clean;hexo generate;hexo deploy"
-alias hexopost="cd /home/yunfeng/Dev/hexo-blog/source/_posts"
+alias sublime="/home/yunfeng/Dev/sublime_text_3/sublime_text_original"
+alias bearychat="/home/yunfeng/Dev/bearychat/BearyChat"
+alias install="sudo apt-get	install"
+alias remove="sudo apt-get	remove"
+alias update="sudo apt-get	update"
+alias upgrade="sudo apt-get	upgrade"
+alias autoremove="sudo apt-get	autoremove"
+alias autoclean="sudo apt-get	autoclean"
+alias search="apt-cache search"
+alias apt-file="sudo apt-file"
+alias show="sudo aptitude show"
+alias reboot="sudo reboot"
+
+## hexo configure
 alias hexohome="cd /home/yunfeng/Dev/hexo-blog"
-alias paccof="vi /home/yunfeng/Dev/hexo-blog/themes/pacman/_config.yml"
-alias jaccof="vi /home/yunfeng/Dev/hexo-blog/themes/jacman/_config.yml"
-alias tmux="TERM=screen-256color-bce tmux"
-## OpenCV GPU Use
-alias gpu++="g++ -I/home/wangyf/bin/include -L/home/wangyf/bin/lib"
+alias hexotheme="cd /home/yunfeng/Dev/hexo-blog/themes"
+alias hexopost="cd /home/yunfeng/Dev/hexo-blog/source/_posts"
+alias hexod="hexo clean;hexo generate;hexo deploy"
+
+## tmux 
+#alias tmux="TERM=screen-256color-bce tmux"
+alias tmux="sudo tmux"
+
+##use python3
+alias python="python3"
+
+
