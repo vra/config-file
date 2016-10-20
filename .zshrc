@@ -107,10 +107,12 @@ alias hexopost="cd /home/yunfeng/Dev/hexo-blog/source/_posts"
 alias hexod="hexo clean;hexo generate;hexo deploy"
 
 ## tmux 
-#alias tmux="TERM=screen-256color-bce tmux"
-alias tmux="sudo tmux"
+alias tmux="TERM=screen-256color-bce tmux"
 
-##use python3
-alias python="python3"
+#ipython and ptpython 
+alias i="ipython"
+alias pt="ptpython"
+alias pti="ptipython"
 
-
+#use English in terminal
+export LC_ALL=C
