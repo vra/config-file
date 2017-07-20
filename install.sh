@@ -4,6 +4,6 @@ cp -r .vim ~/
 cp .vimrc ~/
 cp .npmrc ~/
 cp .tmux.conf ~/
-cp .zshr ~/
+cp .zshrc ~/
 sh git_alias.sh
 echo "Done."
