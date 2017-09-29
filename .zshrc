@@ -83,9 +83,8 @@ export LANG=en_US.UTF-8
 alias zshconfig="vi ~/.zshrc"
 alias viconfig="vi ~/.vimrc"
 alias ohmyzsh="cd ~/.oh-my-zsh"
-alias freeshell30107="ssh -p 30107 yunfeng@202.141.160.95"
 alias ssh190="ssh wangyf@192.168.104.190"
-alias ssh244="ssh wangyf@192.168.104.244"
+alias ssh244="ssh yunfeng@192.168.104.244"
 alias ssh232="ssh yunfeng@192.168.6.232"
 alias install="sudo apt-get	install"
 alias remove="sudo apt-get	remove"
@@ -115,3 +114,6 @@ alias pti="ptipython"
 
 #use English in terminal
 export LC_ALL=C
+
+#nvidia
+alias n="nvidia-smi"
