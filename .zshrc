@@ -7,7 +7,8 @@ export ZSH=$HOME/.oh-my-zsh
 # time that oh-my-zsh is loaded.
 #ZSH_THEME="agnoster"
 #ZSH_THEME="robbyrussell"
-ZSH_THEME="muse"
+#ZSH_THEME="muse"
+ZSH_THEME="candy"
 #ZSH_THEME="example"
 #ZSH_THEME="clean"
 
@@ -86,6 +87,9 @@ alias ohmyzsh="cd ~/.oh-my-zsh"
 alias ssh190="ssh wangyf@192.168.104.190"
 alias ssh244="ssh yunfeng@192.168.104.244"
 alias ssh232="ssh yunfeng@192.168.6.232"
+alias ssh12="ssh yunfeng@192.168.104.12"
+alias ssh143="ssh yunfeng@192.168.104.143"
+alias ssh33="ssh yunfeng@192.168.6.33"
 alias install="sudo apt-get	install"
 alias remove="sudo apt-get	remove"
 alias update="sudo apt-get	update"
@@ -103,6 +107,10 @@ alias hexohome="cd /home/yunfeng/Dev/hexo-blog"
 alias hexotheme="cd /home/yunfeng/Dev/hexo-blog/themes"
 alias hexopost="cd /home/yunfeng/Dev/hexo-blog/source/_posts"
 alias hexod="hexo clean;hexo generate;hexo deploy"
+
+#download pdf from arxiv
+alias arxiv_wget="wget --user-agent=Lynx " # format: http://arxiv.org/PS_cache/arxiv/pdf/1704/1704.00389v1.pdf
+
 
 ## tmux 
 alias tmux="TERM=screen-256color-bce tmux"
