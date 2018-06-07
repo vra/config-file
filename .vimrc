@@ -1,5 +1,6 @@
 set ts=4
-syntax on 
+"comments"
+syntax on
 set t_Co=256
 set background=dark
-colorscheme lucid 
+colorscheme lucid
